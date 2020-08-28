@@ -1461,13 +1461,219 @@ print(v);
 //    return 0;
 //}
 
+//
+//#include<iostream>
+//#include<map>
+//#include<iterator>
+//using namespace std;
+//int main()
+//{
+//    map<string,int>m;
+//      map<string,int>::iterator it;
+//
+//    m["dipto"] = 43;
+//    m["Arnob"] = 42;
+// //   m["Arnob"] = 44;
+//    m.insert(make_pair("Nabil",41));
+//
+////    cout<<m["Arnob"]<<endl;
+////    cout<<m[43]<<endl;
+////it = m.begin();
+////    cout<<it->first<<" "<<it->second<<endl;
+//
+//
+//    for(it=m.begin();it!=m.end();it++)
+//    {
+//        cout<<it->first<<" "<<it->second<<endl;
+//    }
+//    return 0;
+//
+//
+//
+//
+//
+//
+//    return 0;
+//
+//}
+//
+//
 
 
+//#include<iostream>
+//#include<utility>
+//#include<map>
+//#include<vector>
+//using namespace std;
+//int main()
+//{
+////    pair<string,int>p("tanim",12);
+//////    p.first = "Tanim";
+//////    p.second = 12;
+////    p = make_pair("tanim",1332);
+////    cout<<p.first<<" "<<p.second<<endl;
+//    vector<pair<int,string>>v;
+//    v.push_back(make_pair(1,"tanim"));
+//        v.push_back(make_pair(2,"tanim"));
+//            v.push_back(make_pair(3,"tanim"));
+//               v.push_back(make_pair(4,"tanim"));
+//                  vector<pair<int,string>>::iterator it;
+//                  for(it=v.begin();it!=v.end();it++)
+//                  {
+//                      cout<<it->first<<" "<<it->second<<endl;
+//                  }
+//
+//    cout<<v[1].first<<endl;
+//
+//
+//
+//
+//    return 0;
+//}
+////
+//#include<bits/stdc++.h>
+//#include<set>
+//using namespace std;
+//int main()
+//{
+////    set<int>s;
+////    set<int>::iterator it;
+////        s.insert(112);
+////    s.insert(10);
+////    s.insert(11);
+////    s.insert(112);
+//////    it = s.find(10);
+//////    s.erase(it);
+////    it = s.find(10);
+////    s.erase(it);
+////
+////    for(it=s.begin();it!=s.end();it++)
+////    {
+////        cout<<*it<<endl;
+////    }
+//    set<string>s;
+//    set<string>::iterator it;
+//    s.insert("tanim");
+//    s.insert("seba");
+//    s.insert("asif");
+//
+//    pair< set<string>::iterator,bool>p;
+//    p = s.insert("asfif");
+//    if(p.second==false){
+//        cout<<"Can't insert"<<endl;
+//    }
+//    else
+//    {
+//        cout<<"inserted"<<endl;
+//    }
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//}
+//
+//
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main()
+//{
+////    stack<string>s;
+////    s.push("tanim");
+////    s.push("ahmed");
+////    s.push("bijoy");
+//////    cout<<s.top()<<endl;
+////    s.pop();
+////    cout<<s.top()<<endl;
+////    while(!s.empty())
+////    {
+////        string x;
+////        x = s.top();
+////        cout<<x<<endl;
+////        s.pop();
+////    }
+//
+////            while(!s.empty()){
+////                string x;
+////                x = s.top();
+////                cout<<x<<endl;
+////                s.pop();
+////            }
+//
+//string s;
+//getline(cin,s);
+//cout<<s<<endl;
+//
+//
+//    return 0;
+////}
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main()
+//{
+////    priority_queue<int>q;
+////    q.push(400);
+////    q.push(300);
+////    q.push(10);
+////    q.push(11);
+////
+////    while(!q.empty()){
+////        int x;
+////        x = q.top();
+////        cout<<x<<endl;
+////        q.pop();
+////    }
+//
+//    priority_queue<string>q;
+//    q.push("tanim");
+//    q.push("ahmed");
+//    while(!q.empty()){
+//        string s;
+//        s = q.top();
+//        cout<<s<<endl;
+//        q.pop();
+//    }
+//
+//
+//    return 0;
+//
+//}
 
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main()
+//{
+//    multimap<string,int>m;
+//    multimap<string,int>::iterator it;
+//    m.insert(make_pair("Tanim",13));
+//    m.insert(make_pair("anim",2));
+//    m.insert(make_pair("nim",34));
+//    for(it=m.begin();it!=m.end();it++)
+//    {
+//        cout<<it->first<<" "<<it->second<<endl;
+//    }
+//    return 0;
+//}
 
-
-
-
-
-
-
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main()
+//{
+//    multiset<int>s;
+//    multiset<int>::iterator it;
+//    s.insert(100);
+//    s.insert(100);
+//    s.insert(1);
+//    for(it=s.begin();it!=s.end();it++)
+//        cout<<*it<<endl;
+//    return 0;
+//}
+======================================================
