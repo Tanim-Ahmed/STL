@@ -1,0 +1,60 @@
+#include <iostream>
+#include <algorithm>
+#include <vector>
+#include<bits/stdc++.h>
+using namespace std;
+
+// Defining the binary function
+
+int main()
+{
+
+	// Finding the smallest of all the numbers
+
+	cout<<min({-1,2,3,4})<<endl;
+	cout << max(6,7)<<endl;
+	cout << max({2,3,5,78})<<endl;
+	int arr[5]={1,2,3,4,4};
+	cout<<min_element(arr,arr+4)-arr<<endl;
+		cout<<max_element(arr,arr+4)-arr<<endl;
+
+		int a[3]={1,2,3};
+		cout << min_element(arr,arr+3)-arr<<endl;
+		int index = max_element(arr,arr+5)-arr;
+		cout<<"max element "<<arr[index]<<endl;
+		cout<<"Find index"<<find(arr+2,arr+5,2)-arr<<endl;
+		cout<<"Count Function:"<<endl;
+		cout<<count(arr,arr+5,4)<<endl;
+		cout<<count(arr,arr+5,2)<<endl;
+
+    int arr[5]={1,4,5,3,2};
+    cout <<"Before:"<<endl;
+    for(int i = 0; i<5;i++){
+        cout << arr[i]<<" ";
+    }
+    cout<<"\n\n"<<endl;
+//    sort(arr,arr+5);
+    sort(arr,arr+5);
+    cout<<"After:"<<endl;
+     for(int i = 0; i<5;i++){
+        cout << arr[i]<<" ";
+    }
+    cout<<"\n\n"<<endl;
+
+    cout<<"find " <<find(arr,arr+5,2)-arr<<endl;
+    cout <<"count "<<count(arr,arr+5,2)<<endl;
+    cout<<"Min Element"<<arr[min_element(arr,arr+5)-arr]<<endl;
+    cout<<"Max Element"<<arr[max_element(arr,arr+5)-arr]<<endl;
+    cout<<binary_search(arr,arr+5,2)<<endl;
+    cout<<binary_search(arr,arr+5,10)<<endl;
+
+
+
+
+
+
+
+//	cout<<arr+4<<endl;
+
+	return 0;
+}
